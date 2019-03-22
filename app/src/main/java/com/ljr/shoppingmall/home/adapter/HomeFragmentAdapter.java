@@ -1,5 +1,6 @@
 package com.ljr.shoppingmall.home.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
@@ -307,6 +308,7 @@ public class HomeFragmentAdapter extends RecyclerView.Adapter {
          * 相差多少时间-毫秒
          */
         private long dt = 0;
+         @SuppressLint("HandlerLeak")
          private Handler mHandler = new Handler(){
              @Override
              public void handleMessage(Message msg) {

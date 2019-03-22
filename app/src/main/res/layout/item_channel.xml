@@ -10,6 +10,7 @@
         android:id="@+id/iv_channel"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:scaleType="centerInside"
         android:src="@drawable/home_arrow_left_hot" />
 
     <TextView
@@ -18,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center_horizontal"
-        android:text="我是帅哥"
+        android:text="水产"
         android:textColor="#000"
         android:textSize="12sp" />
 </LinearLayout>

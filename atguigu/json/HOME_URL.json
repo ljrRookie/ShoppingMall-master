@@ -42,7 +42,7 @@
         ],
         "channel_info": [
             {
-                "channel_name": "服饰",
+                "channel_name": "鱼类",
                 "image": "/app/img/menu-cyc.png",
                 "option": 2,
                 "type": 1,
@@ -51,7 +51,7 @@
                 }
             },
             {
-                "channel_name": "游戏",
+                "channel_name": "海草",
                 "image": "/app/img/menu-game.png",
                 "option": 2,
                 "type": 1,
@@ -60,7 +60,7 @@
                 }
             },
             {
-                "channel_name": "动漫",
+                "channel_name": "消毒水",
                 "image": "/app/img/menu-carttoon.png",
                 "option": 2,
                 "type": 1,
@@ -69,7 +69,7 @@
                 }
             },
             {
-                "channel_name": "装扮",
+                "channel_name": "螺类",
                 "image": "/app/img/menu-cosplay.png",
                 "option": 2,
                 "type": 1,
@@ -78,7 +78,7 @@
                 }
             },
             {
-                "channel_name": "古风",
+                "channel_name": "章鱼",
                 "image": "/app/img/menu-oldage.png",
                 "option": 2,
                 "type": 1,
@@ -87,7 +87,7 @@
                 }
             },
             {
-                "channel_name": "漫展票务",
+                "channel_name": "水族箱",
                 "image": "/app/img/menu-collect.png",
                 "option": 2,
                 "type": 1,
@@ -96,7 +96,7 @@
                 }
             },
             {
-                "channel_name": "文具",
+                "channel_name": "海星",
                 "image": "/app/img/menu-stationery.png",
                 "option": 2,
                 "type": 1,
@@ -105,7 +105,7 @@
                 }
             },
             {
-                "channel_name": "零食",
+                "channel_name": "虾类",
                 "image": "/app/img/menu-snack.png",
                 "option": 2,
                 "type": 1,
@@ -114,7 +114,7 @@
                 }
             },
             {
-                "channel_name": "首饰",
+                "channel_name": "装饰",
                 "image": "/app/img/menu-jewelry.png",
                 "option": 2,
                 "type": 1,
