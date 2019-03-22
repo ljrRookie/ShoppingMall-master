@@ -20,6 +20,7 @@
         android:backgroundTint="@color/colorAccent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:visibility="gone"
         android:layout_marginBottom="20dp"
         android:layout_marginRight="20dp"
         android:background="@mipmap/icon_up"

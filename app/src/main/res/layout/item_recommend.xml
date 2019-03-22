@@ -10,7 +10,8 @@
         android:id="@+id/iv_recommend"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/home_arrow_left_flash" />
+        android:scaleType="centerCrop"
+        android:src="@drawable/common_default_image" />
 
     <TextView
         android:id="@+id/tv_name"

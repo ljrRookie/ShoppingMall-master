@@ -9,8 +9,9 @@
     <ImageView
         android:id="@+id/iv_figure"
         android:layout_width="100dp"
-        android:scaleType="centerCrop"
         android:layout_height="100dp"
+
+        android:scaleType="centerCrop"
         android:src="@drawable/common_default_image" />
 
     <TextView
