@@ -57,8 +57,8 @@ public class WelcomeActivity extends Activity {
                     mIntent = new Intent(WelcomeActivity.this, GuideActivity.class);
                 }
                 startActivity(mIntent);
-                overridePendingTransition(R.anim.my_scale_action,
-                        R.anim.my_alpha_action);
+              /*  overridePendingTransition(R.anim.my_scale_action,
+                        R.anim.my_alpha_action);*/
                 finish();
             }
         });

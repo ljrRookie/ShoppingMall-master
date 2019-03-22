@@ -36,8 +36,7 @@ public class HomeFragment extends BaseFragment {
     private static final String TAG = HomeFragment.class.getSimpleName();
     @Bind(R.id.search_home)
     TextView mSearchHome;
-    @Bind(R.id.tv_message_home)
-    TextView mTvMessageHome;
+
     @Bind(R.id.home_recyclerview)
     RecyclerView mHomeRecyclerview;
     @Bind(R.id.ib_top)
@@ -106,17 +105,18 @@ public class HomeFragment extends BaseFragment {
 
 
 
-    @OnClick({R.id.search_home, R.id.ib_top,R.id.tv_message_home})
+    @OnClick({R.id.search_home, R.id.ib_top})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.search_home:
                 Toast.makeText(mContext, "搜索吧！！！！", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.tv_message_home:
+           /* case R.id.tv_message_home:
                 Intent intent = new Intent(mContext, MessageCenterActivity.class);
                 mContext.startActivity(intent);
-                break;
+                break;*/
             case R.id.ib_top:
+
                 mHomeRecyclerview.scrollToPosition(0);
                 break;
         }

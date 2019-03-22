@@ -13,16 +13,21 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.ljr.shoppingmall.LoginActivity;
 import com.ljr.shoppingmall.R;
+import com.ljr.shoppingmall.Utils.SPUtils;
+import com.ljr.shoppingmall.base.BaseConfigKey;
 import com.ljr.shoppingmall.base.BaseFragment;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import okhttp3.FormBody;
 
 /**
  * Created by LinJiaRong on 2017/5/10.
@@ -38,7 +43,7 @@ public class UserFragment extends BaseFragment {
     @Bind(R.id.ib_user_message)
     ImageButton mUserMessage;
     @Bind(R.id.ib_user_icon_avator)
-    ImageButton mIbUserIconAvator;
+    ImageView mIbUserIconAvator;
     @Bind(R.id.tv_username)
     TextView mLogin;
     @Bind(R.id.tv_all_order)
@@ -82,8 +87,20 @@ public class UserFragment extends BaseFragment {
     @Override
     public void initData() {
         Log.e(TAG, "initData:主页数据被初始化了 ");
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
         //判断是否已经登录
         isLogin();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
 
     }
 
@@ -148,16 +165,16 @@ public class UserFragment extends BaseFragment {
      */
     private void isLogin() {
         //读取本地信息
-        SharedPreferences sp = this.getActivity().getSharedPreferences("user_info", Context.MODE_PRIVATE);
-        String name = sp.getString("name", "");
-        if(TextUtils.isEmpty(name)){
-            //本地无登录信息，弹出登录框
-            Login();
-            Log.e(TAG, "isLogin: ===========" );
-        }else{
+        boolean isLogin = (boolean) SPUtils.get(BaseConfigKey.IS_LOGIN, false);
+        if(isLogin){
             //直接读取用户登录信息
             loadingUsetInfo();
+        }else{
+
+            //本地无登录信息，弹出登录框
+            Login();
         }
+
 
     }
 
@@ -165,7 +182,14 @@ public class UserFragment extends BaseFragment {
      * 直接读取用户登录信息
      */
     private void loadingUsetInfo() {
-        Log.e(TAG, "loadingUsetInfo: =============" );
+        String userName = (String) SPUtils.get(BaseConfigKey.NAME, "请设置用户名");
+        mLogin.setText(userName);
+        String userImage = (String) SPUtils.get(BaseConfigKey.IMAGE, "");
+        if(!TextUtils.isEmpty(userImage)){
+            Glide.with(this).load(userImage).into(mIbUserIconAvator);
+        }else{
+            Glide.with(this).load(R.mipmap.ic_luncher).into(mIbUserIconAvator);
+        }
 
     }
 

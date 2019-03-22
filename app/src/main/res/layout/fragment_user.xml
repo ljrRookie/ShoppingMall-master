@@ -66,22 +66,19 @@
                     android:gravity="center"
                     android:orientation="vertical">
 
-                    <ImageButton
+                    <ImageView
                         android:id="@+id/ib_user_icon_avator"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-
-                        android:background="@drawable/head"/>
+                        android:src="@drawable/head"/>
 
                     <TextView
                         android:id="@+id/tv_username"
-                        android:layout_width="50dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/guide_selector"
                         android:gravity="center"
-                        android:text="登录"
+                        android:text="未登录"
                         android:textColor="#000000"/>
                 </LinearLayout>
             </RelativeLayout>

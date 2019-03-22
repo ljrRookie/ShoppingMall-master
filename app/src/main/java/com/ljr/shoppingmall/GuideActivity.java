@@ -138,8 +138,8 @@ public class GuideActivity extends Activity {
     public void onClick() {
         CacheUtils.putBoolean(GuideActivity.this, WelcomeActivity.START_MAIN,true);
         startActivity(new Intent(GuideActivity.this,MainActivity.class));
-        overridePendingTransition(R.anim.slide_left,
-                R.anim.slide_right);
+       /* overridePendingTransition(R.anim.slide_left,
+                R.anim.slide_right);*/
         finish();
     }
 

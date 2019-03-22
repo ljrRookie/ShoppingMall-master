@@ -21,6 +21,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.ljr.shoppingmall.GoodsInfoActivity;
 import com.ljr.shoppingmall.R;
+import com.ljr.shoppingmall.WebViewActivity;
 import com.ljr.shoppingmall.base.Constants;
 import com.ljr.shoppingmall.home.activity.GoodsListActivity;
 import com.ljr.shoppingmall.home.bean.GoodsBean;
@@ -188,11 +189,10 @@ public class HomeFragmentAdapter extends RecyclerView.Adapter {
             this.mBanner = (Banner) inflate.findViewById(R.id.banner);
         }
 
-        public void setData(List<ResultBeanData.ResultBean.BannerInfoBean> banner_info) {
+        public void setData(final List<ResultBeanData.ResultBean.BannerInfoBean> banner_info) {
             List<String> imagesUrl = new ArrayList<>();
             for (int i = 0; i < banner_info.size(); i++) {
                 String imageUrl = banner_info.get(i).getImage();
-
                 imagesUrl.add(imageUrl);
             }
             mBanner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
@@ -208,7 +208,8 @@ public class HomeFragmentAdapter extends RecyclerView.Adapter {
             mBanner.setOnBannerClickListener(new OnBannerClickListener() {
                 @Override
                 public void OnBannerClick(int position) {
-                    Toast.makeText(mContext, "positiong=="+position, Toast.LENGTH_SHORT).show();
+
+                    mContext.startActivity(new Intent(mContext, WebViewActivity.class));
                 }
             });
         }
