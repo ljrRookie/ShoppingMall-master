@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/ib_good_info_back"
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确认订单"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#FFF0F0F0"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/rl_address"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@mipmap/icon_shop_address" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/iv_address"
+            android:text="收件人："
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_name"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/tv_name"
+            android:text="手机号码："
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="25dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/iv_address"
+
+            android:text="收货地址:"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/pd_right" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/add_address"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_address_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@mipmap/icon_shop_address" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:layout_centerVertical="true"
+
+            android:focusableInTouchMode="true"
+            android:singleLine="true"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@id/iv_address_add"
+            android:text="请添加收获地址"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@mipmap/pd_right" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#FFF0F0F0" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF0F0F0" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="合计￥ 0.00"
+            android:textColor="#FFD64254"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/btn_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="#FFD64254"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:text="去支付"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</LinearLayout>

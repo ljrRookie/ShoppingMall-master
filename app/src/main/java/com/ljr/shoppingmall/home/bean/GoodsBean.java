@@ -16,7 +16,7 @@ public class GoodsBean implements Serializable {
     private String name;
     //产品id
     private String product_id;
-
+    //数量
     private int number = 1;
     /**
      * 是否被选中

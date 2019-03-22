@@ -74,6 +74,7 @@
                             android:id="@+id/iv_good_info_image"
                             android:layout_width="match_parent"
                             android:layout_height="350dp"
+                            android:scaleType="centerCrop"
                             android:layout_gravity="center_horizontal" />
 
                         <TextView
@@ -123,7 +124,7 @@
                                 android:id="@+id/tv_good_info_store"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="RookieLjr"
+                                android:text="顺丰"
                                 android:textColor="#ff4040" />
 
                             <TextView
@@ -233,26 +234,26 @@
 
 
             <TextView
-                android:id="@+id/tv_good_info_cart"
+                android:id="@+id/btn_good_info_addcart"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:drawablePadding="5dp"
                 android:drawableTop="@drawable/icon_good_detail_cart"
                 android:gravity="center"
-                android:text="购物车"
+                android:text="加入购物车"
                 android:textSize="12sp"
                 android:textColor="#393b3e" />
 
             <Button
-                android:id="@+id/btn_good_info_addcart"
+                android:id="@+id/tv_good_info_cart"
                 android:layout_width="120dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:background="@drawable/add_cart_bg_selector"
                 android:gravity="center"
                 android:textSize="12sp"
-                android:text="加入购物车"
+                android:text="立即购买"
                 android:textColor="#fff" />
         </LinearLayout>
 

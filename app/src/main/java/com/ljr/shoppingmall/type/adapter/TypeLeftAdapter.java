@@ -21,7 +21,7 @@ public class TypeLeftAdapter extends BaseAdapter {
 
     private final Context mContext;
     private int mSelect = 0;//选中项
-    private String[] titles = new String[]{"小裙子", "上衣", "下装", "外套", "配件", "包包", "装扮", "居家宅品", "办公文具", "数码周边", "游戏专区"};
+    private String[] titles = new String[]{"鱼类(活鲜)", "鱼类(冰鲜)", "贝类", "虾类", "肉类", "冰鲜类", "海藻类", "暴晒鱼干", "海参类", "淡水海鱼", "咸水海鱼"};
 
     public TypeLeftAdapter(Context context) {
         this.mContext = context;

@@ -1,6 +1,7 @@
 package com.ljr.shoppingmall.shoppingcart;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -14,7 +15,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ljr.shoppingmall.OrderActivity;
 import com.ljr.shoppingmall.R;
+import com.ljr.shoppingmall.base.BaseConfigKey;
 import com.ljr.shoppingmall.base.BaseFragment;
 import com.ljr.shoppingmall.home.bean.GoodsBean;
 import com.ljr.shoppingmall.shoppingcart.adapter.ShoppingCartAdapter;
@@ -187,7 +190,8 @@ public class ShoppingCartFragment extends BaseFragment {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_check_out:
-                Toast.makeText(mContext, "结算！！！", Toast.LENGTH_SHORT).show();
+                Intent order = new Intent(getActivity(), OrderActivity.class);
+                startActivity(order);
                 break;
             case R.id.btn_delete:
                 mAdapter.deleteData();

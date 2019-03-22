@@ -16,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.ljr.shoppingmall.Utils.SPUtils;
+import com.ljr.shoppingmall.base.BaseConfigKey;
 import com.ljr.shoppingmall.base.Constants;
 import com.ljr.shoppingmall.home.bean.GoodsBean;
 import com.ljr.shoppingmall.shoppingcart.util.CartStorage;
@@ -50,9 +52,9 @@ public class GoodsInfoActivity extends AppCompatActivity {
     @Bind(R.id.tv_good_info_collection)
     TextView mTvGoodInfoCollection;
     @Bind(R.id.tv_good_info_cart)
-    TextView mTvGoodInfoCart;
+    Button mTvGoodInfoCart;
     @Bind(R.id.btn_good_info_addcart)
-    Button mBtnGoodInfoAddcart;
+    TextView mBtnGoodInfoAddcart;
     @Bind(R.id.ll_goods_root)
     LinearLayout mLlGoodsRoot;
     @Bind(R.id.tv_more_share)
@@ -68,6 +70,7 @@ public class GoodsInfoActivity extends AppCompatActivity {
     @Bind(R.id.activity_goods_info)
     LinearLayout mActivityGoodsInfo;
     private GoodsBean mGoodsBean;
+    private boolean isLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +78,6 @@ public class GoodsInfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_goods_info);
         ButterKnife.bind(this);
         mGoodsBean = (GoodsBean) getIntent().getSerializableExtra("goodsBean");
-
         if (mGoodsBean != null) {
             Log.e(TAG, "onCreate: "+mGoodsBean.toString());
             setDataForView(mGoodsBean);
@@ -132,8 +134,14 @@ public class GoodsInfoActivity extends AppCompatActivity {
                 }
                 break;
             case R.id.btn_good_info_addcart:
-                CartStorage.getInstance().addData(mGoodsBean);
-                Toast.makeText(this, "添加到成功了", Toast.LENGTH_SHORT).show();
+                isLogin = (boolean) SPUtils.get(BaseConfigKey.IS_LOGIN, false);
+                if(isLogin){
+                    CartStorage.getInstance().addData(mGoodsBean);
+                    Toast.makeText(this, "成功加入购物车", Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(this, "请先登录", Toast.LENGTH_SHORT).show();
+                }
+
                 break;
             case R.id.tv_more_share:
                 Toast.makeText(this, "分享", Toast.LENGTH_SHORT).show();
@@ -153,7 +161,16 @@ public class GoodsInfoActivity extends AppCompatActivity {
                 Toast.makeText(this, "收藏", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.tv_good_info_cart:
-                Toast.makeText(this, "购物车", Toast.LENGTH_SHORT).show();
+                //购买
+                 isLogin = (boolean) SPUtils.get(BaseConfigKey.IS_LOGIN, false);
+                if(isLogin){
+                    //确认订单
+                    Intent order = new Intent(this, OrderActivity.class);
+                    order.putExtra(BaseConfigKey.GOOD,mGoodsBean);
+                    startActivity(order);
+                }else{
+                    Toast.makeText(this, "请先登录", Toast.LENGTH_SHORT).show();
+                }
                 break;
         }
     }

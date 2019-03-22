@@ -10,4 +10,8 @@ public class BaseConfigKey {
     public static String pwd = "password";
 
     public static int REQUEST_REGIST = 1000;
+    public static String GOOD = "good";
+
+    public static String PRICE_TOTAL = "price";
+
 }
