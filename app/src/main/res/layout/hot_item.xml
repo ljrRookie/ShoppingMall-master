@@ -37,9 +37,9 @@
     <GridView
         android:id="@+id/gv_hot"
         android:layout_width="match_parent"
-        android:layout_height="1020dp"
+        android:layout_height="1090dp"
         android:layout_marginTop="10dp"
         android:horizontalSpacing="10dp"
         android:numColumns="2"
-        android:verticalSpacing="10dp"></GridView>
+        android:verticalSpacing="10dp"/>
 </LinearLayout>
