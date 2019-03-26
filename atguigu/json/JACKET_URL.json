@@ -1,4 +1,4 @@
-﻿{
+{
   "code": 200,
   "msg": "请求成功",
   "result": [{
@@ -11,21 +11,21 @@
       {
         "p_catalog_id": "52",
         "parent_id": "51",
-        "name": "狮子鱼",
+        "name": "日常",
         "pic": "/product_catalog/1446017524434.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "96",
         "parent_id": "51",
-        "name": "海瓜子",
+        "name": "泳衣",
         "pic": "/product_catalog/1449216802403.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "109",
         "parent_id": "51",
-        "name": "大白贝",
+        "name": "汉风",
         "pic": "/product_catalog/1465383063303.jpg",
         "is_deleted": "0"
       },
@@ -39,14 +39,14 @@
       {
         "p_catalog_id": "55",
         "parent_id": "51",
-        "name": "水产",
+        "name": "lolita",
         "pic": "/product_catalog/1446017570261.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "56",
         "parent_id": "51",
-        "name": "河豚",
+        "name": "创意T恤",
         "pic": "/product_catalog/1446017583897.jpg",
         "is_deleted": "0"
       }
@@ -59,7 +59,7 @@
         "p_catalog_id": "52",
         "supplier_type": "1",
         "supplier_code": "1101001",
-        "name": "水产",
+        "name": "剑三T恤批发",
         "cover_price": "32.00",
         "brief": "",
         "figure": "/1439367400560.jpg",
@@ -73,9 +73,9 @@
         "p_catalog_id": "52",
         "supplier_type": "2",
         "supplier_code": "802004",
-        "name": "水产",
+        "name": "【流烟昔泠】汉元素 半臂 短宋裤 吊带 刺绣 豆蔻年华少女系列-清秋兔 半臂",
         "cover_price": "99.00",
-        "brief": "大量",
+        "brief": "7月15日起进入第四批预定，第四批约7月31日左右发货",
         "figure": "/1465295954097.jpg",
         "sell_time_start": "1465228800",
         "sell_time_end": "1465833600"
@@ -87,9 +87,9 @@
         "p_catalog_id": "52",
         "supplier_type": "2",
         "supplier_code": "802004",
-        "name": "水产",
+        "name": "【流烟昔泠】汉元素 半臂 短宋裤 吊带 刺绣 豆蔻年华少女系列-清秋兔 吊带",
         "cover_price": "59.00",
-        "brief": "大量",
+        "brief": "7月15日起进入第四批预定，第四批约7月31日左右发货",
         "figure": "/1465296158907.jpg",
         "sell_time_start": "1465228800",
         "sell_time_end": "1465833600"
@@ -101,7 +101,7 @@
         "p_catalog_id": "56",
         "supplier_type": "2",
         "supplier_code": "1201001",
-        "name": "水产",
+        "name": "【漫踪】 原创可爱萌猫咪大人 立体猫尾T恤 蕾丝花边女",
         "cover_price": "79.00",
         "brief": "",
         "figure": "/1461571069605.jpg",
@@ -115,9 +115,9 @@
         "p_catalog_id": "52",
         "supplier_type": "2",
         "supplier_code": "1201001",
-        "name": "水产",
+        "name": "【漫踪】宫崎骏 龙猫套装 女冬 帽子衬衫背心打底裤短裤",
         "cover_price": "105.00",
-        "brief": "大量",
+        "brief": "背心上小挂件赠完即止哦\n",
         "figure": "/1451012249243.jpg",
         "sell_time_start": "1450972800",
         "sell_time_end": "1451577600"
@@ -129,7 +129,7 @@
         "p_catalog_id": "56",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "水产",
+        "name": "【古怪舍】原创设计 恶灵退散纯棉七分袖T恤 秋季日系原宿男女装A21",
         "cover_price": "63.00",
         "brief": "",
         "figure": "/1464245798979.jpg",
