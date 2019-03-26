@@ -1,4 +1,4 @@
-{
+﻿{
   "code": 200,
   "msg": "请求成功",
   "result": [{
@@ -11,42 +11,42 @@
       {
         "p_catalog_id": "110",
         "parent_id": "57",
-        "name": "汉风",
+        "name": "圣子",
         "pic": "/product_catalog/1465383117300.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "59",
         "parent_id": "57",
-        "name": "古风",
+        "name": "大河豚",
         "pic": "/product_catalog/1446017608030.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "61",
         "parent_id": "57",
-        "name": "lolita",
+        "name": "水产",
         "pic": "/product_catalog/1446017628543.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "62",
         "parent_id": "57",
-        "name": "胖次",
+        "name": "水产",
         "pic": "/product_catalog/1446017713072.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "63",
         "parent_id": "57",
-        "name": "南瓜裤",
+        "name": "水产",
         "pic": "/product_catalog/1446017725424.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "88",
         "parent_id": "57",
-        "name": "日常",
+        "name": "海螺",
         "pic": "/product_catalog/1446017744373.jpg",
         "is_deleted": "0"
       }
@@ -59,9 +59,9 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "1101037",
-        "name": "【画影】小狐狸短裙",
+        "name": "草鱼",
         "cover_price": "98.00",
-        "brief": "红黑短裙是现货哦~",
+        "brief": "大量",
         "figure": "/1466759853976.jpg",
         "sell_time_start": "1464019200",
         "sell_time_end": "1464624000"
@@ -73,9 +73,9 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "802004",
-        "name": "【流烟昔泠】汉元素 半臂 短宋裤 吊带 刺绣 豆蔻年华少女系列-清秋兔 短宋裤",
+        "name": "扇贝",
         "cover_price": "99.00",
-        "brief": "7月15日起进入第四批预定，第四批约7月31日左右发货",
+        "brief": "大量",
         "figure": "/1465296453463.jpg",
         "sell_time_start": "1465228800",
         "sell_time_end": "1465833600"
@@ -87,7 +87,7 @@
         "p_catalog_id": "59",
         "supplier_type": "1",
         "supplier_code": "1101015",
-        "name": "【游鹤工作室】闲梦沄沄下裙刺绣白鹿（短款）- 藏青",
+        "name": "三文鱼",
         "cover_price": "110.60",
         "brief": "现货 ",
         "figure": "/1444883979497.jpg",
@@ -101,7 +101,7 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "【古怪舍】原创设计 百鬼夜行-冥府魔道和风短裤 日式棉麻阔腿裤A70",
+        "name": "大象拔蚌",
         "cover_price": "89.00",
         "brief": "",
         "figure": "/1462352934101.jpg",
@@ -115,9 +115,9 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "【古怪舍】原创 日本和风服饰-和。扇 棉麻印花短裤 女装阔腿裤 A11",
+        "name": "鲳鱼干",
         "cover_price": "78.00",
-        "brief": "预售截止到2号发货哦~\r\n预售截止到2号发货哦~\r\n预售截止到2号发货哦~",
+        "brief": "大量",
         "figure": "/1459135580746.jpg",
         "sell_time_start": "1459094400",
         "sell_time_end": "1459699200"
@@ -129,7 +129,7 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "【古怪舍】定制款 欧式复古歌特风系带高腰短裙 半身裙子 伞裙 A52",
+        "name": "鱼干",
         "cover_price": "79.00",
         "brief": "",
         "figure": "/1452653909042.jpg",

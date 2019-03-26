@@ -1,4 +1,4 @@
-{
+﻿{
   "code": 200,
   "msg": "请求成功",
   "result": [{
@@ -11,28 +11,28 @@
       {
         "p_catalog_id": "10",
         "parent_id": "3",
-        "name": "古风",
+        "name": "白贝",
         "pic": "/product_catalog/1446016297307.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "11",
         "parent_id": "3",
-        "name": "和风",
+        "name": "水产",
         "pic": "/product_catalog/1446016509141.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "12",
         "parent_id": "3",
-        "name": "lolita",
+        "name": "七星斑",
         "pic": "/product_catalog/1446016728621.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "91",
         "parent_id": "3",
-        "name": "日常",
+        "name": "旗鱼",
         "pic": "/product_catalog/1446444753067.jpg",
         "is_deleted": "0"
       }
@@ -45,7 +45,7 @@
         "p_catalog_id": "3",
         "supplier_type": "1",
         "supplier_code": "0",
-        "name": "中华风lolita -山海经 凤凰图  JSK",
+        "name": "红珊瑚",
         "cover_price": "300.00",
         "brief": "",
         "figure": "/1447239453626.jpg",
@@ -59,7 +59,7 @@
         "p_catalog_id": "12",
         "supplier_type": "2",
         "supplier_code": "1801005",
-        "name": "【INFANTA.婴梵塔】学院风尖领外套/大衣",
+        "name": "青蟹",
         "cover_price": "287.00",
         "brief": "",
         "figure": "/1450433177397.jpg",
@@ -73,7 +73,7 @@
         "p_catalog_id": "12",
         "supplier_type": "2",
         "supplier_code": "1801001",
-        "name": "定制【Neverland 原创】直发 烫金lolita 人鱼之歌 高腰JSK连衣裙",
+        "name": "象拔蚌",
         "cover_price": "403.04",
         "brief": "45天工期",
         "figure": "/1438772068067.jpg",
@@ -87,9 +87,9 @@
         "p_catalog_id": "91",
         "supplier_type": "2",
         "supplier_code": "1101004",
-        "name": "【绝对萌域】 黑白猫咪 黑喵咪 短袖连衣裙",
+        "name": "鲳鱼",
         "cover_price": "121.44",
-        "brief": "猫咪是神秘的小动物。传说它们能通灵和驱魔，给主人带来好运。可猫咪也被认为是女巫役使的邪恶精灵，是恶魔的化身。萌域为爱美又略微中二的宅MM们，设计了黑猫、白猫主题裙装，不同的风格、一样的可爱。白猫套装穿上性感俏皮，黑色连衣裙让你像猫咪一样优雅又有气质。",
+        "brief": "大量",
         "figure": "/1463385771450.jpg",
         "sell_time_start": "1478772000",
         "sell_time_end": "1461254400"
@@ -101,7 +101,7 @@
         "p_catalog_id": "10",
         "supplier_type": "2",
         "supplier_code": "1101037",
-        "name": "【画影】汉元素 古风日常\u2014\u2014 仲夏 ",
+        "name": "大虾",
         "cover_price": "250.00",
         "brief": "",
         "figure": "/1457504361484.jpg",
@@ -115,7 +115,7 @@
         "p_catalog_id": "91",
         "supplier_type": "2",
         "supplier_code": "1601008",
-        "name": "现货【TUMO】 雨库洛牌元素 软妹森女系短袖连衣裙",
+        "name": "腹鱼",
         "cover_price": "179.00",
         "brief": "",
         "figure": "/supplier/1467687105197.jpg",
