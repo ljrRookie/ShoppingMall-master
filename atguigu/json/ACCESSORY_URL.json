@@ -9,13 +9,6 @@
     "is_deleted": "0",
     "child": [
       {
-        "p_catalog_id": "70",
-        "parent_id": "69",
-        "name": "冰鲜秋刀鱼",
-        "pic": "/product_catalog/1446017867549.png",
-        "is_deleted": "0"
-      },
-      {
         "p_catalog_id": "105",
         "parent_id": "69",
         "name": "未到货",
@@ -26,7 +19,7 @@
         "p_catalog_id": "71",
         "parent_id": "69",
         "name": "南非鲍鱼",
-        "pic": "/product_catalog/1446017886090.jpg",
+        "pic": "/product_catalog/1446017886090.png",
         "is_deleted": "0"
       },
       {

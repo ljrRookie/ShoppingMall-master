@@ -32,15 +32,15 @@
       {
         "p_catalog_id": "117",
         "parent_id": "51",
-        "name": "古风",
-        "pic": "",
+        "name": "扇贝",
+        "pic": "1438946011155.jpg",
         "is_deleted": "0"
       },
       {
         "p_catalog_id": "55",
         "parent_id": "51",
-        "name": "水产",
-        "pic": "/product_catalog/1446017570261.jpg",
+        "name": "醉仙螺",
+        "pic": "/1442219020234.jpg",
         "is_deleted": "0"
       },
       {

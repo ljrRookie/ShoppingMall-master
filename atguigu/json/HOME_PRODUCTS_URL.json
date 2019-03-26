@@ -9,7 +9,7 @@
                     "name": "水产",
                     "p_catalog_id": "115",
                     "parent_id": "5",
-                    "pic": "/product_catalog/1469183837648.png"
+                    "pic": "/product_catalog/1469183837648.jpg"
                 },
                 {
                     "is_deleted": "0",
@@ -46,13 +46,7 @@
                     "parent_id": "5",
                     "pic": "/product_catalog/1449828955995.png"
                 },
-                {
-                    "is_deleted": "0",
-                    "name": "水产",
-                    "p_catalog_id": "100",
-                    "parent_id": "5",
-                    "pic": "/product_catalog/1450682473783.png"
-                },
+
                 {
                     "is_deleted": "0",
                     "name": "宠物鱼",
@@ -66,13 +60,6 @@
                     "p_catalog_id": "107",
                     "parent_id": "5",
                     "pic": "/product_catalog/1465383093721.jpg"
-                },
-                {
-                    "is_deleted": "0",
-                    "name": "水产",
-                    "p_catalog_id": "113",
-                    "parent_id": "5",
-                    "pic": "/product_catalog/1468306500168.jpg"
                 },
                 {
                     "is_deleted": "0",
@@ -93,7 +80,7 @@
                     "name": "水产",
                     "p_catalog_id": "24",
                     "parent_id": "5",
-                    "pic": "/product_catalog/1446016851701.jpg"
+                    "pic": "/product_catalog/1446016851701.png"
                 },
                 {
                     "is_deleted": "0",
@@ -114,14 +101,14 @@
                     "name": "大白贝",
                     "p_catalog_id": "27",
                     "parent_id": "5",
-                    "pic": "/product_catalog/1446016906565.jpg"
+                    "pic": "/product_catalog/1446016906565.png"
                 },
                 {
                     "is_deleted": "0",
                     "name": "海螺",
                     "p_catalog_id": "28",
                     "parent_id": "5",
-                    "pic": "/product_catalog/1446016944877.jpg"
+                    "pic": "/product_catalog/1446016944877.png"
                 },
                 {
                     "is_deleted": "0",

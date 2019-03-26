@@ -1,95 +1,76 @@
 {
-  "code": 200,
-  "msg": "«Î«Û≥…π¶",
+  "code": 200,0
+  "msg": "ËØ∑Ê±ÇÊàêÂäü",
   "result": [
     {
       "p_catalog_id": "7",
       "parent_id": "0",
-      "name": "≥÷–¯»»¬Ù",
+      "name": "ÊåÅÁª≠ÁÉ≠Âçñ",
       "pic": "",
       "is_deleted": "0",
       "child": [
-        {
-          "p_catalog_id": "119",
-          "parent_id": "7",
-          "name": "ÀÆ≤˙",
-          "pic": "",
-          "is_deleted": "0"
-        },
-        {
-          "p_catalog_id": "118",
-          "parent_id": "7",
-          "name": "ÀÆ≤˙",
-          "pic": "",
-          "is_deleted": "0"
-        },
+
         {
           "p_catalog_id": "116",
           "parent_id": "7",
-          "name": "¥¯”„",
+          "name": "Â∏¶È±º",
           "pic": "/1472112184129.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "112",
           "parent_id": "7",
-          "name": "»˝Œƒ”„",
+          "name": "‰∏âÊñáÈ±º",
           "pic": "/product_catalog/1465808719970.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "103",
           "parent_id": "7",
-          "name": "∫£πΩ",
+          "name": "Êµ∑Ëèá",
           "pic": "/product_catalog/1454061759825.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "102",
           "parent_id": "7",
-          "name": "…±≥Ê",
+          "name": "ÊùÄËô´",
           "pic": "/product_catalog/1454061108683.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "101",
           "parent_id": "7",
-          "name": "∂˙ª˙",
+          "name": "ËÄ≥Êú∫",
           "pic": "/product_catalog/1454060084922.png",
           "is_deleted": "0"
         },
-        {
-          "p_catalog_id": "93",
-          "parent_id": "7",
-          "name": "ƒ‡”„",
-          "pic": "/product_catalog/1454484273989.jpg",
-          "is_deleted": "0"
-        },
+
         {
           "p_catalog_id": "50",
           "parent_id": "7",
-          "name": " Ø¬›",
+          "name": "Áü≥Ëû∫",
           "pic": "/product_catalog/1446017444813.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "39",
           "parent_id": "7",
-          "name": "≤›”„",
+          "name": "ËçâÈ±º",
           "pic": "/product_catalog/1446017382141.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "40",
           "parent_id": "7",
-          "name": "—™ø«",
+          "name": "Ë°ÄÂ£≥",
           "pic": "/product_catalog/1446017408013.jpg",
           "is_deleted": "0"
         },
         {
           "p_catalog_id": "41",
           "parent_id": "7",
-          "name": "ª∆–∑",
+          "name": "ÈªÑËüπ",
           "pic": "/product_catalog/1446017422349.jpg",
           "is_deleted": "0"
         }
@@ -102,7 +83,7 @@
           "p_catalog_id": "101",
           "supplier_type": "2",
           "supplier_code": "1102013",
-          "name": "Ãÿº€∫Ï”„",
+          "name": "Áâπ‰ª∑Á∫¢È±º",
           "cover_price": "299.00",
           "brief": "",
           "figure": "/1469173640233.jpg",
@@ -116,7 +97,7 @@
           "p_catalog_id": "116",
           "supplier_type": "2",
           "supplier_code": "400003",
-          "name": "Ãÿº€∫£πΩ",
+          "name": "Áâπ‰ª∑Êµ∑Ëèá",
           "cover_price": "329.00",
           "brief": "WACOM CTL471",
           "figure": "/supplier/1467702094592.jpg",
@@ -130,7 +111,7 @@
           "p_catalog_id": "7",
           "supplier_type": "2",
           "supplier_code": "2101001",
-          "name": "∏…±¥",
+          "name": "Âπ≤Ë¥ù",
           "cover_price": "15.00",
           "brief": "",
           "figure": "/1445418450175.jpg",
@@ -144,7 +125,7 @@
           "p_catalog_id": "41",
           "supplier_type": "2",
           "supplier_code": "802001",
-          "name": "«p”„",
+          "name": "ËéóÈ±º",
           "cover_price": "30.00",
           "brief": "",
           "figure": "/1468840600394.jpg",
@@ -158,7 +139,7 @@
           "p_catalog_id": "101",
           "supplier_type": "2",
           "supplier_code": "2101002",
-          "name": "»˝Œƒ”„",
+          "name": "‰∏âÊñáÈ±º",
           "cover_price": "99.00",
           "brief": "",
           "figure": "/1478833408658.jpg",
@@ -172,7 +153,7 @@
           "p_catalog_id": "119",
           "supplier_type": "1",
           "supplier_code": "1102019",
-          "name": "∫⁄”„",
+          "name": "ÈªëÈ±º",
           "cover_price": "49.00",
           "brief": "",
           "figure": "/1475979038217.jpg",
