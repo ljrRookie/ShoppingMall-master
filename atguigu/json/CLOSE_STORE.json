@@ -1,197 +1,109 @@
 {
   "code": 200,
-  "msg": "ÇëÇó³É¹¦",
-  
-"result": {
-    
-"page_data": [
-     
- {
-        
-"product_id": "6633",
-        
-"origin_price": "132.00",
-      
- "channel_id": "8",
-        
-"brand_id": "394",
-       
- "p_catalog_id": "67",
-        
-"supplier_type": "2",
-        
-"supplier_code": "1101037",
-        
-"name": "Ô½ÄÏ´óÏº",
-        
-"cover_price": "132.00",
-        
-"brief": "ĞÂÏÊµ½»õ",
-       
- "figure": "/1466759461799.jpg",
-      
-  "sell_time_start": "1464019200",
-       
- "sell_time_end": "1464624000"
+  "msg": "è¯·æ±‚æˆåŠŸ",
+  "result": {
+    "page_data": [
+      {
+        "product_id": "6633",
+        "origin_price": "132.00",
+        "channel_id": "8",
+        "brand_id": "394",
+        "p_catalog_id": "67",
+        "supplier_type": "2",
+        "supplier_code": "1101037",
+        "name": "è¶Šå—å¤§è™¾",
+        "cover_price": "132.00",
+        "brief": "æ–°é²œåˆ°è´§",
+        "figure": "/1466759461799.jpg",
+        "sell_time_start": "1464019200",
+        "sell_time_end": "1464624000"
       },
-    
-  {
+      {
         "product_id": "3831",
-        
-"origin_price": "54.00",
-        
-"channel_id": "8",
-        
-"brand_id": "429",
-       
- "p_catalog_id": "84",
-       
- "supplier_type": "1",
-        
-"supplier_code": "1101035",
-        
-"name": "ÈÕÊ½°×±´ÌØ¼Û",
-        
-"cover_price": "29.00",
-        
-"brief": "",
-        
-"figure": "/1452161899947.jpg",
-       
- "sell_time_start": "1477563362",
-      
-  "sell_time_end": "1452182400"
+        "origin_price": "54.00",
+        "channel_id": "8",
+        "brand_id": "429",
+        "p_catalog_id": "84",
+        "supplier_type": "1",
+        "supplier_code": "1101035",
+        "name": "æ—¥å¼ç™½è´ç‰¹ä»·",
+        "cover_price": "29.00",
+        "brief": "",
+        "figure": "/1452161899947.jpg",
+        "sell_time_start": "1477563362",
+        "sell_time_end": "1452182400"
       },
-    
-  {
+      {
         "product_id": "6634",
-       
- "origin_price": "98.00",
-       
- "channel_id": "8",
-       
-"brand_id": "5",
-        
-"p_catalog_id": "88",
-       
- "supplier_type": "2",
-        
-"supplier_code": "1101037",
-       
- "name": "ÇpÓã",
-       
- "cover_price": "98.00",
-        
-"brief": "ÏÖ»õÅ¶~",
-       
- "figure": "/1466759853976.jpg",
-      
-  "sell_time_start": "1464019200",
-        
-"sell_time_end": "1464624000"
+        "origin_price": "98.00",
+        "channel_id": "8",
+        "brand_id": "5",
+        "p_catalog_id": "88",
+        "supplier_type": "2",
+        "supplier_code": "1101037",
+        "name": "è—é±¼",
+        "cover_price": "98.00",
+        "brief": "ç°è´§å“¦~",
+        "figure": "/1466759853976.jpg",
+        "sell_time_start": "1464019200",
+        "sell_time_end": "1464624000"
       },
-     
- {
+      {
         "product_id": "3845",
-        
-"origin_price": "49.00",
-       
- "channel_id": "8",
-        
-"brand_id": "183",
-       
- "p_catalog_id": "70",
-        
-"supplier_type": "2",
-        
-"supplier_code": "100003",
-       
- "name": "ÌØ¼ÛºìÓã",
-        
-"cover_price": "49.00",
-       
- "brief": "",
-       
- "figure": "/1451967280855.jpg",
-        
-"sell_time_start": "1451923200",
-        
-"sell_time_end": "1452528000"
+        "origin_price": "49.00",
+        "channel_id": "8",
+        "brand_id": "183",
+        "p_catalog_id": "70",
+        "supplier_type": "2",
+        "supplier_code": "100003",
+        "name": "ç‰¹ä»·çº¢é±¼",
+        "cover_price": "49.00",
+        "brief": "",
+        "figure": "/1451967280855.jpg",
+        "sell_time_start": "1451923200",
+        "sell_time_end": "1452528000"
       },
-    
- {
+      {
         "product_id": "4947",
-        
-"origin_price": "22.00",
-        
-"channel_id": "8",
-       
- "brand_id": "5",
-        
-"p_catalog_id": "71",
-        
-"supplier_type": "2",
-        
-"supplier_code": "1101026",
-       
- "name": "ÌØ¼Û¸¹Óã",
-        
-"cover_price": "22.00",
-       
- "brief": "",
-        
-"figure": "/1467361365770.jpg",
-        
-"sell_time_start": "1456848000",
-       
- "sell_time_end": "1457452800"
+        "origin_price": "22.00",
+        "channel_id": "8",
+        "brand_id": "5",
+        "p_catalog_id": "71",
+        "supplier_type": "2",
+        "supplier_code": "1101026",
+        "name": "ç‰¹ä»·è…¹é±¼",
+        "cover_price": "22.00",
+        "brief": "",
+        "figure": "/1467361365770.jpg",
+        "sell_time_start": "1456848000",
+        "sell_time_end": "1457452800"
       },
-    
-  {
+      {
         "product_id": "6969",
-        
-"origin_price": "68.00",
-        
-"channel_id": "8",
-        
-"brand_id": "403",
-       
- "p_catalog_id": "29",
-       
- "supplier_type": "2",
-        
-"supplier_code": "100015",
-       
- "name": "Î´µ½»õ",
-        
-"cover_price": "68.00",
-        
-"brief": "¾´ÇëÆÚ´ı",
-        
-"figure": "/1465620442251.jpg",
-        
-"sell_time_start": "1465574400",
-       
- "sell_time_end": "1466179200"
+        "origin_price": "68.00",
+        "channel_id": "8",
+        "brand_id": "403",
+        "p_catalog_id": "29",
+        "supplier_type": "2",
+        "supplier_code": "100015",
+        "name": "æœªåˆ°è´§",
+        "cover_price": "68.00",
+        "brief": "æ•¬è¯·æœŸå¾…",
+        "figure": "/1465620442251.jpg",
+        "sell_time_start": "1465574400",
+        "sell_time_end": "1466179200"
       },
       {
         "product_id": "4628",
         "origin_price": "142.00",
         "channel_id": "8",
-       
- "brand_id": 
-"5",
+        "brand_id": "5",
         "p_catalog_id": "56",
-        
-"supplier_type": "2",
-        
-"supplier_code": "1201001",
-        
-"name": "ÈÕ±¾ºÚÓã",
-        
-"cover_price": "79.00",
-       
- "brief": "",
+        "supplier_type": "2",
+        "supplier_code": "1201001",
+        "name": "æ—¥æœ¬é»‘é±¼",
+        "cover_price": "79.00",
+        "brief": "",
         "figure": "/1461571069605.jpg",
         "sell_time_start": "1455638400",
         "sell_time_end": "1456243200"
@@ -204,7 +116,7 @@
         "p_catalog_id": "12",
         "supplier_type": "2",
         "supplier_code": "1801005",
-        "name": "´óÇàĞ·",
+        "name": "å¤§é’èŸ¹",
         "cover_price": "287.00",
         "brief": "",
         "figure": "/1450433177397.jpg",
@@ -219,9 +131,9 @@
         "p_catalog_id": "12",
         "supplier_type": "2",
         "supplier_code": "1801001",
-        "name": "ÄÏ·ÇÏó°Î°ö",
+        "name": "å—éè±¡æ‹”èšŒ",
         "cover_price": "403.04",
-        "brief": "ĞèÔ¤¶¨",
+        "brief": "éœ€é¢„å®š",
         "figure": "/1438772068067.jpg",
         "sell_time_start": "1478772000",
         "sell_time_end": "1439308800"
@@ -234,9 +146,9 @@
         "p_catalog_id": "91",
         "supplier_type": "2",
         "supplier_code": "1101004",
-        "name": "µ­Ë®öğÓã",
+        "name": "æ·¡æ°´é²³é±¼",
         "cover_price": "121.44",
-        "brief": "´óÁ¿¿â´æ",
+        "brief": "å¤§é‡åº“å­˜",
         "figure": "/1463385771450.jpg",
         "sell_time_start": "1478772000",
         "sell_time_end": "1461254400"
@@ -249,7 +161,7 @@
         "p_catalog_id": "84",
         "supplier_type": "1",
         "supplier_code": "1101035",
-        "name": "Î´µ½»õ",
+        "name": "æœªåˆ°è´§",
         "cover_price": "6.90",
         "brief": "",
         "figure": "/1465959861797.jpg",
@@ -264,7 +176,7 @@
         "p_catalog_id": "91",
         "supplier_type": "2",
         "supplier_code": "1601008",
-        "name": "´ó×ìÓã",
+        "name": "å¤§å˜´é±¼",
         "cover_price": "179.00",
         "brief": "",
         "figure": "/supplier/1467687105197.jpg",
@@ -279,9 +191,9 @@
         "p_catalog_id": "52",
         "supplier_type": "2",
         "supplier_code": "1201001",
-        "name": "Æ¤Æ¤Ïº",
+        "name": "çš®çš®è™¾",
         "cover_price": "105.00",
-        "brief": "ĞÂÏÊµ½»õ",
+        "brief": "æ–°é²œåˆ°è´§",
         "figure": "/1451012249243.jpg",
         "sell_time_start": "1450972800",
         "sell_time_end": "1451577600"
@@ -294,9 +206,9 @@
         "p_catalog_id": "82",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "ÌØ¼Û»¨Âİ",
+        "name": "ç‰¹ä»·èŠ±èº",
         "cover_price": "40.00",
-        "brief": "ÊıÁ¿ÓĞÏŞ",
+        "brief": "æ•°é‡æœ‰é™",
         "figure": "/1466154447310.jpg",
         "sell_time_start": "1478772000",
         "sell_time_end": "1466697600"
@@ -309,7 +221,7 @@
         "p_catalog_id": "76",
         "supplier_type": "2",
         "supplier_code": "1101003",
-        "name": "ÌØ¼ÛÁúÀû",
+        "name": "ç‰¹ä»·é¾™åˆ©",
         "cover_price": "59.00",
         "brief": "",
         "figure": "/1447903575122.jpg",
@@ -324,7 +236,7 @@
         "p_catalog_id": "67",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "µ­Ë®ºÚÓã",
+        "name": "æ·¡æ°´é»‘é±¼",
         "cover_price": "99.00",
         "brief": "",
         "figure": "/1459131888532.jpg",
@@ -339,7 +251,7 @@
         "p_catalog_id": "56",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "¶àÈâĞ·",
+        "name": "å¤šè‚‰èŸ¹",
         "cover_price": "63.00",
         "brief": "",
         "figure": "/1464245798979.jpg",
@@ -354,7 +266,7 @@
         "p_catalog_id": "88",
         "supplier_type": "2",
         "supplier_code": "2101001",
-        "name": "Ğ¡Ïó°Î°ö",
+        "name": "å°è±¡æ‹”èšŒ",
         "cover_price": "89.00",
         "brief": "",
         "figure": "/1462352934101.jpg",
@@ -369,9 +281,9 @@
         "p_catalog_id": "65",
         "supplier_type": "2",
         "supplier_code": "1101004",
-        "name": "»ÆÓã",
+        "name": "é»„é±¼",
         "cover_price": "139.92",
-        "brief": "´óÁ¿",
+        "brief": "å¤§é‡",
         "figure": "/1445568698438.jpg",
         "sell_time_start": "1478772000",
         "sell_time_end": "1446134400"
@@ -384,7 +296,7 @@
         "p_catalog_id": "65",
         "supplier_type": "2",
         "supplier_code": "1801007",
-        "name": "ºìÂİ",
+        "name": "çº¢èº",
         "cover_price": "280.60",
         "brief": "",
         "figure": "/1453477900441.jpg",

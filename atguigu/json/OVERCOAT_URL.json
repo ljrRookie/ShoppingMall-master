@@ -28,14 +28,8 @@
         "name": "海胆",
         "pic": "/product_catalog/1446017802214.jpg",
         "is_deleted": "0"
-      },
-      {
-        "p_catalog_id": "68",
-        "parent_id": "64",
-        "name": "水产",
-        "pic": "/1446016728621.jpg",
-        "is_deleted": "0"
       }
+
     ],
     "hot_product_list": [
       {
