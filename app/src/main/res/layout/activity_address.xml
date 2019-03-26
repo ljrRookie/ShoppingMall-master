@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/ib_good_info_back"
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收货地址"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#FFF0F0F0"
+        android:layout_height="1dp" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="收货人姓名："/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phone"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="收货人手机号码："/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/address"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="收货人姓名："/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/btn_save"
+        android:layout_width="100dp"
+        android:text="保存"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_btn"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

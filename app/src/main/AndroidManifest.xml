@@ -47,6 +47,8 @@
         </activity>
         <activity android:name=".home.activity.GoodsListActivity">
         </activity>
+        <activity android:name=".user.AddressActivty"/>
+        <activity android:name=".PaySuccessActivity"/>
     </application>
 
 </manifest>

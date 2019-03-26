@@ -87,8 +87,6 @@ public class UserFragment extends BaseFragment {
     @Override
     public void initData() {
         Log.e(TAG, "initData:主页数据被初始化了 ");
-
-
     }
 
     @Override
@@ -140,6 +138,7 @@ public class UserFragment extends BaseFragment {
             case R.id.tv_user_drawback:
                 break;
             case R.id.tv_user_location:
+                startActivity(new Intent(getActivity(),AddressActivty.class));
                 break;
             case R.id.tv_user_collect:
                 break;

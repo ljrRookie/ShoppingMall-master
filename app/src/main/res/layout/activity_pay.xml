@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/ib_good_info_back"
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确认支付"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:scaleType="centerInside"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_bar_left_back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/tv_order_money"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            app:sDividerLineType="bottom"
+            app:sLeftTextColor="#FF333333"
+            app:sLeftTextSize="17sp"
+            app:sLeftTextString="订单金额："
+            app:sRightTextColor="#FFFF0000"
+            app:sRightTextSize="17sp"
+            app:sRightTextString="¥ 0.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="选择支付方式："
+            android:textColor="#FF666666"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/rl_wechat"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/wechat_pay"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_wechat_pay" />
+
+                <TextView
+                    android:id="@+id/pay_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/wechat_pay"
+                    android:text="微信支付"
+                    android:textColor="#FF666666"
+                    android:textSize="13sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_wechat_pay"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="false"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/selector_pay_button"
+                    android:button="@null"
+                    android:checked="true"
+                    android:scaleType="centerInside" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_ali"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/ali_pay"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_ali_pay" />
+
+                <TextView
+                    android:id="@+id/pay_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ali_pay"
+                    android:text="支付宝支付"
+                    android:textColor="#FF666666"
+                    android:textSize="13sp" />
+
+
+                <RadioButton
+                    android:id="@+id/rb_ali_pay"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/selector_pay_button"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:checked="false"
+                    android:scaleType="centerInside" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_money"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/money_pay"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_money_pay" />
+
+                <TextView
+                    android:layout_toEndOf="@id/money_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="钱包支付"
+                    android:textColor="#FF666666"
+                    android:textSize="13sp" />
+                <RadioButton
+                    android:id="@+id/rb_money_pay"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/selector_pay_button"
+                    android:button="@null"
+                    android:checked="false"
+                    android:clickable="false"
+                    android:scaleType="centerInside" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp">
+
+            <com.allen.library.SuperButton
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="15sp"
+                app:sCornersRadius="6dp"
+                app:sGradientEndColor="@color/red_light"
+                app:sGradientOrientation="RIGHT_LEFT"
+                app:sGradientStartColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/btn_commit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="确认支付"
+                android:textColor="#FFFFFFFF"
+                android:textSize="15sp"
+                android:visibility="visible"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

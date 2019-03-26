@@ -71,6 +71,7 @@ public class LoginActivity extends Activity {
         String userPwd = (String) SPUtils.get(BaseConfigKey.pwd, "");
         mUsername.setText(userAccount);
         mPassword.setText(userPwd);
+        initUploadDialog();
     }
 
 
@@ -117,7 +118,7 @@ public class LoginActivity extends Activity {
         String userAccount = (String) SPUtils.get(BaseConfigKey.Account, "");
         String userPwd = (String) SPUtils.get(BaseConfigKey.pwd, "");
         if(TextUtils.equals(account,userAccount) && TextUtils.equals(userPwd,pwd)){
-            initUploadDialog();
+            zLoadingDialog.show();
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
                 @Override
