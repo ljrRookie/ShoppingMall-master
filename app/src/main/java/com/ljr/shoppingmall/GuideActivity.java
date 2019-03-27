@@ -53,7 +53,7 @@ public class GuideActivity extends Activity {
         for (int i = 0; i < ids.length; i++) {
             ImageView imageView = new ImageView(this);
             imageView.setBackgroundResource(ids[i]);
-            imageView.setScaleType(ImageView.ScaleType.CENTER);
+            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             mImageViews.add(imageView);
             //创建点
             ImageView point = new ImageView(this);

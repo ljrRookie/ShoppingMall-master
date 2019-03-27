@@ -82,7 +82,7 @@
         android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="收货人姓名："/>
+        android:hint="收货地址："/>
     </android.support.design.widget.TextInputLayout>
 
     <TextView
