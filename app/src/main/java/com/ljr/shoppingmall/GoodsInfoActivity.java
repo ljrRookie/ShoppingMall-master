@@ -98,7 +98,7 @@ public class GoodsInfoActivity extends AppCompatActivity {
 
     private void setWebViewData(String product_id) {
         if (product_id != null) {
-            mWbGoodInfoMore.loadUrl("https://github.com/ljrRookie");
+            mWbGoodInfoMore.loadUrl("https://www.baidu.com/");
             WebSettings settings = mWbGoodInfoMore.getSettings();
             //支持双击页面变大小
             settings.setUseWideViewPort(true);
