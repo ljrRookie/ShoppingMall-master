@@ -60,7 +60,7 @@
                 }
             },
             {
-                "channel_name": "消毒水",
+                "channel_name": "新鲜到货",
                 "image": "/app/img/menu-carttoon.png",
                 "option": 2,
                 "type": 1,
@@ -87,7 +87,7 @@
                 }
             },
             {
-                "channel_name": "水族箱",
+                "channel_name": "折扣新品",
                 "image": "/app/img/menu-collect.png",
                 "option": 2,
                 "type": 1,
@@ -96,7 +96,7 @@
                 }
             },
             {
-                "channel_name": "海星",
+                "channel_name": "特卖",
                 "image": "/app/img/menu-stationery.png",
                 "option": 2,
                 "type": 1,
@@ -114,7 +114,7 @@
                 }
             },
             {
-                "channel_name": "装饰",
+                "channel_name": "商家推荐",
                 "image": "/app/img/menu-jewelry.png",
                 "option": 2,
                 "type": 1,
